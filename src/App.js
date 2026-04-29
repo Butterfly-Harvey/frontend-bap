@@ -21,9 +21,7 @@ function App() {
   </GovUK.Button>
 </GovUK.Main>
 
-<GovUK.Footer
-  company={<GovUK.Footer.Anchor href="https://example.com" target="new">GOV.UK</GovUK.Footer.Anchor>}
-  />
+<GovUK.Footer meta={<meta_links heading="Support links"><link__FooterLink  href="https://design-system.service.gov.uk/accessibility-statement/" target="new"> <a href='https://design-system.service.gov.uk/accessibility-statement/' target='_blank' rel='noopener noreferrer'>Accessibility Statement</a></link__FooterLink></meta_links>} />
   </>
 }
 export default App;
