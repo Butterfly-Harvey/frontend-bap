@@ -1,0 +1,78 @@
+/* DWP Header */
+.dwp-header {
+  font-family: "GDS Transport", arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.875rem;
+  background: #0b0c0c;
+  color: #ffffff;
+  position: relative;
+}
+
+.dwp-header__content {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px 0;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dwp-header__service-name {
+  font-size: 1.5rem;
+  font-weight: 700;
+  padding: 0;
+}
+
+.dwp-header__link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.dwp-header__link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+}
+
+/* DWP Footer */
+.dwp-footer {
+  font-size: 1rem;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  border-top: 1px solid #b1b4b6;
+  color: #0b0c0c;
+  background: #f3f2f1;
+}
+
+.dwp-footer__meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: center;
+  max-width: 960px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.dwp-footer__inline-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dwp-footer__inline-list-item {
+  display: inline-block;
+  margin-right: 15px;
+  margin-bottom: 5px;
+}
+
+.dwp-footer__link {
+  color: #0b0c0c;
+}
+
+.dwp-footer__link:hover {
+  color: #0b0c0c;
+  text-decoration: underline;
+}
